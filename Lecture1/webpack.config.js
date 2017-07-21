@@ -5,7 +5,7 @@ module.exports = {
         filename: 'app.js'
     },
     module: {
-        loaders: [
+        rules: [
             { test: /\.css$/, loader: 'style!css' }
         ]
     }
